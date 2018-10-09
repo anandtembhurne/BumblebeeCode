@@ -1,0 +1,13 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="sub-import/sub-import.html">
+<dom-module id="x-import">
+  <template>
+  <link rel="import" type="css" href="import-test.css">
+    [Imported: <content></content>]
+  </template>
+  <script>
+    Polymer({
+      is: 'x-import'
+    });
+  </script>
+</polymer-element>

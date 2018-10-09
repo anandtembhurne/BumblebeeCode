@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: uno
+Build-Jdk: 1.8.0_121
+Bundle-ManifestVersion: 1
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-platform-login-token-rest
+Bundle-SymbolicName: org.nuxeo.ecm.platform.restapi.server.login.token
+ auth;singleton:=true
+Fragment-Host: org.nuxeo.ecm.platform.restapi.server
+Bundle-Vendor: Nuxeo
+

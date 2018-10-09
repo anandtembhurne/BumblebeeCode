@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: uno
+Build-Jdk: 1.8.0_121
+Bundle-ManifestVersion: 1
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-routing-rest-api
+Bundle-SymbolicName: org.nuxeo.ecm.platform.restapi.server.routing;sin
+ gleton:=true
+Fragment-Host: org.nuxeo.ecm.platform.restapi.server
+Bundle-Vendor: Nuxeo
+

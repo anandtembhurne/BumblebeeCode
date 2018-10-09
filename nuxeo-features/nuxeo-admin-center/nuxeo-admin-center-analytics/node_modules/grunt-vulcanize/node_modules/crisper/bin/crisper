@@ -1,0 +1,90 @@
+#!/usr/bin/env node
+/**
+ * @license
+ * Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+ * This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+ * The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+ * The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+ * Code distributed by Google as part of the polymer project is also
+ * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+ */
+
+// jshint node: true
+'use strict';
+
+var nopt = require('nopt');
+var fs = require('fs');
+var path = require('path');
+var crisp = require('../index');
+
+var args = nopt(
+  {
+    source: String,
+    html: String,
+    js: String,
+    'script-in-head': Boolean,
+    'only-split': Boolean,
+    'always-write-script': Boolean
+  },
+  {
+    s: ['--source'],
+    h: ['--html'],
+    j: ['--js']
+  }
+);
+
+
+if (!args.html) {
+  console.log('Missing output html file!');
+  process.exit(1);
+}
+
+if (!args.js) {
+  console.log('Missing output js file!');
+  process.exit(1);
+}
+
+var source = args.source || (args.remain && args.remain[0]);
+if (source) {
+  source = path.resolve(source);
+}
+var outhtml = path.resolve(args.html);
+var outscript = path.resolve(args.js);
+var outScriptUri = path.relative(path.dirname(args.html), args.js);
+var placeInHead = args['script-in-head'];
+var onlySplit = args['only-split'];
+var alwaysWriteScript = args['always-write-script'];
+
+var docText = '';
+
+function processSource() {
+  var split = crisp({
+    source: docText,
+    jsFileName: outScriptUri,
+    scriptInHead: placeInHead,
+    onlySplit: onlySplit,
+    alwaysWriteScript: alwaysWriteScript
+  });
+  fs.writeFileSync(outhtml, split.html, 'utf-8');
+  if (split.js || split.js === "" && alwaysWriteScript) {
+    fs.writeFileSync(outscript, split.js, 'utf-8');
+  }
+}
+
+if (source) {
+  docText = fs.readFileSync(source, 'utf-8');
+  processSource();
+} else if (!process.stdin.isTTY) {
+  process.stdin.setEncoding('utf-8');
+  process.stdin.on('readable', function() {
+    var chunk = process.stdin.read();
+    if (chunk !== null) {
+      docText += chunk;
+    }
+  });
+  process.stdin.on('end', processSource);
+} else {
+  console.log('Missing source html file!');
+  console.log('Supply file with STDIN or --source flag');
+  process.exit(1);
+}

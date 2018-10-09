@@ -1,0 +1,104 @@
+<!--
+(C) Copyright 2015 Nuxeo SA (http://nuxeo.com/) and contributors.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the GNU Lesser General Public License
+(LGPL) version 2.1 which accompanies this distribution, and is available at
+http://www.gnu.org/licenses/lgpl.html
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+Contributors:
+  Nelson Silva <nsilva@nuxeo.com>
+-->
+
+<!--
+`nuxeo-file`
+
+    <nuxeo-file></nuxeo-file>
+
+@group Nuxeo Widgets
+@element nuxeo-file
+@demo demo/nuxeo-widgets.html
+@homepage http://www.nuxeo.org
+-->
+<link rel="import" href="../../iron-icon/iron-icon.html">
+<link rel="import" href="../../iron-icons/iron-icons.html">
+<dom-module id="nuxeo-file">
+<template>
+  <style>
+  :host {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+  </style>
+
+  <nuxeo-connection id="nx"></nuxeo-connection>
+  <input id="input" type="file" on-change="_filesChanged">
+  <iron-icon></iron-icon>
+
+</template>
+<script>
+  Polymer({
+    is: 'nuxeo-file',
+    properties: {
+      value: {
+        type: Object,
+        notify: true
+      },
+      /**
+       * This flags determines whether the file should be immediately uploaded or not.
+       */
+      immediate: {
+        type: Boolean,
+        value: true
+      }
+    },
+
+    /**
+     * Upload the selected file.
+     */
+    upload: function() {
+      this._icon('');
+      this._uploader = this.$.nx.client.uploader({url: this.$.nx.client._automationURL});
+      // TODO: handle multiple files
+      this._doUpload([this.$.input.files[0]])
+        .then(function() {
+          this._icon('cloud-done');
+          this.value = {
+            "upload-batch": this._uploader.batchId,
+            "upload-fileId": "0"
+          }
+        }.bind(this))
+    },
+
+    _filesChanged: function() {
+      if (this.immediate) {
+        this.upload();
+      }
+    },
+
+    _doUpload: function(files) {
+      this._icon('cloud-queue');
+      return Promise.all(
+        files.map(function (file) {
+          return new Promise(function (resolve, reject) {
+            this._uploader.uploadFile(file, function (error, data) {
+              (error) ? reject(error) : resolve(data);
+            });
+          }.bind(this));
+        }.bind(this))
+      );
+    },
+
+    _icon: function(icon) {
+      this.$$('iron-icon').icon = icon;
+    }
+  });
+  </script>
+</dom-module>

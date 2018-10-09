@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+
+<registry>
+  <entry key="nxserver/bundles/nuxeo-platform-actions-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-actions-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jboss-seam-excel">
+    <version name="2.3.1.Final" path="nxserver/lib/jboss-seam-excel-2.3.1.Final.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-forms-layout-client">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-forms-layout-client-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-automation-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-automation-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-task-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-task-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-comment-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-comment-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/itext-rtf">
+    <version name="2.1.7" path="nxserver/lib/itext-rtf-2.1.7.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-user-center">
+    <version name="9.1" path="nxserver/bundles/nuxeo-user-center-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-contentview-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-contentview-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-user-profile-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-user-profile-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/itext">
+    <version name="2.1.7" path="nxserver/lib/itext-2.1.7.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/org.restlet.ext.fileupload">
+    <version name="1.0.7" path="nxserver/lib/org.restlet.ext.fileupload-1.0.7.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jsf-api">
+    <version name="2.2.6" path="nxserver/lib/jsf-api-2.2.6.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-search-ui">
+    <version name="9.1" path="nxserver/bundles/nuxeo-search-ui-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-collections-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-collections-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/yarfraw">
+    <version name="0.92" path="nxserver/lib/yarfraw-0.92.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-io-client">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-io-client-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jboss-seam-remoting">
+    <version name="2.3.1.Final.NX02" path="nxserver/lib/jboss-seam-remoting-2.3.1.Final.NX02.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-webapp-base">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-webapp-base-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-user-dashboard-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-user-dashboard-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-localconf-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-localconf-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-suggestbox-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-suggestbox-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jxl">
+    <version name="2.6.12-NX1" path="nxserver/lib/jxl-2.6.12-NX1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-ui-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-ui-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-audit-client">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-audit-client-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-login-token-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-login-token-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-userworkspace-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-userworkspace-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/ant">
+    <version name="1.7.0" path="nxserver/lib/ant-1.7.0.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-connect-update">
+    <version name="9.1" path="nxserver/bundles/nuxeo-connect-update-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/hibernate-validator">
+    <version name="3.1.0.GA" path="nxserver/lib/hibernate-validator-3.1.0.GA.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/com.noelios.restlet.ext.servlet">
+    <version name="1.0.7" path="nxserver/lib/com.noelios.restlet.ext.servlet-1.0.7.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/richfaces-a4j">
+    <version name="4.5.12.Final" path="nxserver/lib/richfaces-a4j-4.5.12.Final.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/com.noelios.restlet">
+    <version name="1.0.7" path="nxserver/lib/com.noelios.restlet-1.0.7.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-admin-center-monitoring">
+    <version name="9.1" path="nxserver/bundles/nuxeo-admin-center-monitoring-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-elasticsearch-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-elasticsearch-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-admin-center-oauth">
+    <version name="9.1" path="nxserver/bundles/nuxeo-admin-center-oauth-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-webapp-core">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-webapp-core-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jboss-seam-pdf">
+    <version name="2.3.1.Final" path="nxserver/lib/jboss-seam-pdf-2.3.1.Final.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-routing-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-routing-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-directory-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-directory-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-tag-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-tag-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/ant-launcher">
+    <version name="1.7.0" path="nxserver/lib/ant-launcher-1.7.0.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-publisher-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-publisher-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-user-dashboard">
+    <version name="9.1" path="nxserver/bundles/nuxeo-user-dashboard-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-admin-center-analytics">
+    <version name="9.1" path="nxserver/bundles/nuxeo-admin-center-analytics-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-theme-migration">
+    <version name="9.1" path="nxserver/bundles/nuxeo-theme-migration-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/richfaces">
+    <version name="4.5.12.Final" path="nxserver/lib/richfaces-4.5.12.Final.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-routing-dashboard">
+    <version name="9.1" path="nxserver/bundles/nuxeo-routing-dashboard-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-webapp">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-webapp-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-web-resources-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-web-resources-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/richfaces-core">
+    <version name="4.5.12.Final" path="nxserver/lib/richfaces-core-4.5.12.Final.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jboss-seam-ui">
+    <version name="2.3.1.Final" path="nxserver/lib/jboss-seam-ui-2.3.1.Final.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-rendition-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-rendition-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-user-oauth">
+    <version name="9.1" path="nxserver/bundles/nuxeo-user-oauth-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-user-notification">
+    <version name="9.1" path="nxserver/bundles/nuxeo-user-notification-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jboss-seam-rss">
+    <version name="2.3.1.Final" path="nxserver/lib/jboss-seam-rss-2.3.1.Final.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/cssparser">
+    <version name="0.9.18" path="nxserver/lib/cssparser-0.9.18.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-notification-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-notification-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-relations-web">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-relations-web-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-logs-viewer">
+    <version name="9.1" path="nxserver/bundles/nuxeo-logs-viewer-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-preview-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-preview-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-routing-default">
+    <version name="9.1" path="nxserver/bundles/nuxeo-routing-default-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-platform-ui-select2">
+    <version name="9.1" path="nxserver/bundles/nuxeo-platform-ui-select2-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-admin-center-jsf">
+    <version name="9.1" path="nxserver/bundles/nuxeo-admin-center-jsf-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/bundles/nuxeo-routing-dm">
+    <version name="9.1" path="nxserver/bundles/nuxeo-routing-dm-9.1.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+  <entry key="nxserver/lib/jsf-impl">
+    <version name="2.2.6-NX01" path="nxserver/lib/jsf-impl-2.2.6-NX01.jar">
+      <package>nuxeo-jsf-ui-9.1.0</package>
+    </version>
+  </entry>
+</registry>

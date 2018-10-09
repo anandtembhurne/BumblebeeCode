@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Vulcanizer Test</title>
+  <script src="bower_components/platform/platform.js"></script>
+  <script src="bower_components/polymer/polymer.js"></script>
+</head>
+<body><div hidden="" by-vulcanize=""><dom-module id="y-import" assetpath="sub-import/">
+  <template>
+    <style>
+      :host{
+        background: url("foo.jpg");
+      }
+    </style>
+  </template>
+  <script>Polymer({is: 'y-import'});</script>
+
+</dom-module><dom-module id="x-import" assetpath="/">
+  <template>
+  <link rel="import" type="css" href="import-test.css">
+    [Imported: <content></content>]
+  </template>
+  <script>
+    Polymer({
+      is: 'x-import'
+    });
+  </script>
+
+</dom-module></div>
+  <x-import>Hello Import!</x-import>
+  <y-import></y-import>
+
+
+</body></html>

@@ -1,0 +1,197 @@
+<!--
+(C) Copyright 2015 Nuxeo SA (http://nuxeo.com/) and contributors.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the GNU Lesser General Public License
+(LGPL) version 2.1 which accompanies this distribution, and is available at
+http://www.gnu.org/licenses/lgpl.html
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+Contributors:
+  Nelson Silva <nsilva@nuxeo.com>
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="nuxeo-operation.html">
+
+<!--
+`nuxeo-page-provider` wraps a `Repository.PageProvider` operation to provide paginated results for a given `query`.
+
+    <nuxeo-page-provider auto
+                         query="select * from Document"
+                         page-size="5"
+                         sort="dc:modified">
+    </nuxeo-page-provider>
+
+With `auto` set to `true`, results are fetched whenever
+the `query`, `params`, `page` or `pageSize` properties are changed.
+
+You can fetch results explicitly by calling `fetch` on the
+element.
+
+@group Nuxeo Elements
+@element nuxeo-page-provider
+@demo demo/nuxeo-page-provider.html
+@homepage http://www.nuxeo.org
+-->
+<dom-module id="nuxeo-page-provider">
+  <template>
+    <style>
+      :host {
+        display: none;
+      }
+    </style>
+
+    <nuxeo-operation id="operation"
+                     op="Repository.PageProvider"
+                     on-response="_onOpResponse"
+                     connection-id="[[connectionId]]">
+    </nuxeo-operation>
+
+  </template>
+  <script>
+    Polymer({
+      is: 'nuxeo-page-provider',
+      properties: {
+
+        /* The id of a nuxeo-connection to use. */
+        connectionId: {
+          type: String,
+          value: ''
+        },
+
+        /**
+         * If true, automatically execute the operation when either `op` or `params` changes.
+         */
+        auto: {
+          type: Boolean,
+          value: false
+        },
+
+        /**
+         * The id of a page provider.
+         */
+        provider: {
+          type: String,
+          value: ''
+        },
+
+        /**
+         * The query.
+         */
+        query: String,
+
+        /**
+         * The query parameters.
+         */
+        params: {
+          type: Array,
+          value: []
+        },
+
+        /**
+         * The number of results per page.
+         */
+        pageSize: {
+          type: Number,
+          value: 5
+        },
+
+        /**
+         * The current page.
+         */
+        page: {
+          type: Number,
+          value: 1
+        },
+
+        /**
+         * The current page entries.
+         */
+        currentPage: {
+          type: Array,
+          value: [],
+          notify: true
+        },
+
+        /**
+         * Map of properties and direction 'asc' / 'desc'
+         */
+        sort: {
+          type: Object,
+          value: {},
+          notify: true
+        },
+
+        numberOfPages: {
+          type: Number,
+          notify: true
+        },
+
+        resultsCount: {
+          type: Number,
+          notify: true
+        }
+      },
+
+      observers: [
+        '_autoFetch(provider, query, params, pageSize, page, sort)'
+      ],
+
+      ready: function () {
+        this.currentPage = [];
+        this._autoFetch();
+      },
+
+      /**
+       * Executes the operation to fetch the currentPage.
+       *
+       * @method fetch
+       */
+      fetch: function () {
+        this.$.operation.params = {
+          page: this.page - 1,
+          pageSize: this.pageSize,
+          providerName: this.ref,
+          query: this.query,
+          queryParams: this.params,
+          sortBy: this._sortKeys.join(","),
+          sortOrder: this._sortValues.join(",")
+        };
+        this.$.operation.execute();
+      },
+
+      get _sortKeys() {
+        return Object.keys(this.sort);
+      },
+
+      get _sortValues() {
+        return this._sortKeys.map(function(k) { return this.sort[k];}.bind(this));
+      },
+
+      _autoFetch: function () {
+        // Reset the page if the query changes
+        if (this.$.operation.params && (this.query !== this.$.operation.params.query)) {
+          this.page = 1;
+        }
+        if (this.auto && (this.query || this.provider)) {
+          this.fetch();
+        }
+      },
+
+      _onOpResponse: function (e, detail) {
+        var response = detail.response;
+        this.currentPage = response.entries.slice(0);
+        this.numberOfPages = response.numberOfPages;
+        this.resultsCount = response.resultsCount;
+        this.fire('update');
+      }
+
+    });
+  </script>
+
+</dom-module>

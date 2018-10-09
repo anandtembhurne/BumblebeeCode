@@ -1,0 +1,500 @@
+2018-09-21 18:53:54,002 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,003 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,003 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,003 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,004 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,004 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,004 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,004 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,005 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,005 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,005 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,006 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,006 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,007 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,007 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,008 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,008 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,008 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,009 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,015 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,015 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,015 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,016 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,016 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,017 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,017 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,018 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,018 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,018 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,019 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,019 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,020 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,020 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,020 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,021 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,023 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,024 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,024 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,024 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,024 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==1
+2018-09-21 18:53:54,025 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+2018-09-21 18:53:54,025 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,025 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,026 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,026 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-09-21 18:53:54,027 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside add ace ......ACE(username=user1, permission=Read, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,027 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,027 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside getOrCreateACL ........local
+2018-09-21 18:53:54,028 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==2
+2018-09-21 18:53:54,028 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+
+2018-09-21 18:53:54,028 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl obj =[ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null), ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)]
+
+2018-09-21 18:53:54,029 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl *=*=*=[ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null), ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)]
+
+2018-09-21 18:53:54,029 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,029 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =2
+2018-09-21 18:53:54,030 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,030 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,030 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+
+2018-09-21 18:53:54,031 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,032 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,032 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl change status =true
+
+2018-09-21 18:53:54,033 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,033 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==2
+2018-09-21 18:53:54,033 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+
+2018-09-21 18:53:54,034 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =[ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null), ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null), ACE(username=user1, permission=Read, isGranted=true, creator=Administrator, begin=null, end=null)]
+
+2018-09-21 18:53:54,034 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,035 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,035 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,035 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,036 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,036 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,036 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,037 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,037 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,037 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,037 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,038 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,038 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,044 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,044 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,045 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,045 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,045 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,046 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,046 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,046 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,046 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,047 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,047 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,048 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,048 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,048 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,049 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,049 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,050 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,050 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,050 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,051 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,051 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,051 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,052 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,052 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,052 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,053 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,053 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==1
+2018-09-21 18:53:54,053 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+2018-09-21 18:53:54,054 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,054 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,054 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,060 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited
+2018-09-21 18:53:54,070 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==2
+2018-09-21 18:53:54,071 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+2018-09-21 18:53:54,071 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==2
+2018-09-21 18:53:54,077 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+2018-09-21 18:53:54,077 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =inherited
+2018-09-21 18:53:54,159 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,168 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,182 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,182 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,183 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,183 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,183 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,183 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,184 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,184 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,184 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,186 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,187 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =2
+2018-09-21 18:53:54,187 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,188 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,196 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,196 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,197 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,197 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,197 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,197 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,197 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,198 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,198 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,199 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,201 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,202 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,202 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,203 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,205 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,205 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,207 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,211 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,211 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,211 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,212 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,212 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,212 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,213 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,214 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,235 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,235 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,235 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,236 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,244 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,244 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,247 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==1
+2018-09-21 18:53:54,247 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+2018-09-21 18:53:54,247 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,248 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,248 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,249 INFO  [Nuxeo-Work-elasticSearchIndexing-2:24483315530899.1350104456] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited
+2018-09-21 18:53:54,248 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,251 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,251 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,252 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,252 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,252 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,252 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,253 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,253 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,253 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,253 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,254 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,256 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =2
+2018-09-21 18:53:54,257 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,257 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,257 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,258 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,258 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,258 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,258 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,259 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,259 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,259 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,260 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,260 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,260 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,260 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,261 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,261 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,261 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,261 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,262 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,262 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,263 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,263 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,263 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,264 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,264 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,264 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,265 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,265 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,266 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,266 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,266 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,266 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,267 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,267 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==1
+2018-09-21 18:53:54,267 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+2018-09-21 18:53:54,268 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,268 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,268 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,268 INFO  [http-bio-0.0.0.0-8080-exec-27] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited
+2018-09-21 18:53:54,437 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,438 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,438 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,439 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,439 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,439 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,440 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,440 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,440 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,441 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,441 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,441 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,442 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,442 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,442 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,442 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,442 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,443 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,443 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,443 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,443 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,444 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,444 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,444 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,445 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,445 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,445 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,445 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,446 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,446 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,446 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,446 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =2
+2018-09-21 18:53:54,447 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,447 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,447 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,447 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,448 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,448 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,448 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,448 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,448 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,449 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,449 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,449 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,449 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,450 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,450 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,450 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,450 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,451 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,451 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,451 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,451 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,452 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,452 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,452 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,452 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,453 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,453 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,453 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,453 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,453 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,454 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,454 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,454 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,454 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,455 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,455 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,455 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,455 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited
+2018-09-21 18:53:54,468 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,468 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,468 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,470 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,470 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,471 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,471 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,471 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,471 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,472 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,472 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,472 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,472 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,472 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,473 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,473 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,473 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,473 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,473 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,474 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,474 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,474 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,474 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,474 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,475 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,483 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,483 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,483 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,483 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,484 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,484 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,484 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =2
+2018-09-21 18:53:54,484 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,485 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,485 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,485 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,485 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,485 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,486 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,486 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,486 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,486 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,486 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,495 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,495 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,495 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,496 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,496 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,496 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,496 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,496 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,497 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,497 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,497 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,497 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,497 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,497 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,498 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,498 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,498 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,498 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,498 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,499 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,499 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,499 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,499 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,499 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,500 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,500 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,500 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited
+2018-09-21 18:53:54,502 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,502 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,502 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,503 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,503 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,503 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,507 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,507 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,507 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,508 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,508 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,508 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,508 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =2
+2018-09-21 18:53:54,509 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,509 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,509 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,509 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,509 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,510 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,510 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,510 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,510 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,510 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,511 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,511 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,511 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,511 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,511 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,512 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,512 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,512 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,512 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,512 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,513 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,513 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,513 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,513 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,513 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,514 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,514 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,514 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,514 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,514 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,515 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,515 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,515 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,515 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,515 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,516 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,516 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,516 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited
+2018-09-21 18:53:54,518 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,518 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,518 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,518 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,519 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,519 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,519 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,519 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,520 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,520 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,520 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,520 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,520 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,521 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,521 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,521 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,521 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,521 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,522 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,522 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,522 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,522 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,522 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,523 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,523 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,523 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,523 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,523 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,524 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,524 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,524 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,524 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =2
+2018-09-21 18:53:54,524 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=Administrator, begin=null, end=null)
+2018-09-21 18:53:54,525 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=administrators, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,525 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,525 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,525 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,526 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,526 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,526 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,526 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,526 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,526 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,527 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,527 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,527 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,527 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =0
+2018-09-21 18:53:54,528 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,528 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,528 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,528 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside add add method in ACL IMPL .........
+2018-09-21 18:53:54,528 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list size =1
+2018-09-21 18:53:54,529 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] aces list  =ACE(username=Administrator, permission=Everything, isGranted=true, creator=null, begin=null, end=null)
+2018-09-21 18:53:54,529 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] ==================================================
+2018-09-21 18:53:54,529 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] inside containt if ==
+2018-09-21 18:53:54,529 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACLImpl] pos =-1
+2018-09-21 18:53:54,529 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =local
+2018-09-21 18:53:54,530 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,530 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,530 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,530 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,530 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......local
+2018-09-21 18:53:54,531 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==0
+2018-09-21 18:53:54,531 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inherited ===null
+2018-09-21 18:53:54,531 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name =inherited
+2018-09-21 18:53:54,531 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] length ==1
+2018-09-21 18:53:54,531 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] acl name ........ =local
+2018-09-21 18:53:54,532 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] old ACL =null
+2018-09-21 18:53:54,532 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside addACL if is not equal to old acl .......
+2018-09-21 18:53:54,532 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else ......
+2018-09-21 18:53:54,533 INFO  [Nuxeo-Work-elasticSearchIndexing-4:24483580955729.629467253] [org.nuxeo.ecm.core.api.security.impl.ACPImpl] inside else  name ......inherited

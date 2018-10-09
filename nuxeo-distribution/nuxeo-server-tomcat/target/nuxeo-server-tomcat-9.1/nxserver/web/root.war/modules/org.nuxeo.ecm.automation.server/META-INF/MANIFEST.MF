@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: uno
+Build-Jdk: 1.8.0_121
+Bundle-ManifestVersion: 2
+Bundle-Version: 1.0.0
+Bundle-ClassPath: .
+Bundle-Name: Nuxeo Automation Server
+Bundle-SymbolicName: org.nuxeo.ecm.automation.server
+Bundle-Vendor: Nuxeo
+Export-Package: org.nuxeo.ecm.automation.server
+Bundle-ActivationPolicy: lazy
+Nuxeo-WebModule: org.nuxeo.ecm.automation.server.jaxrs.AutomationModul
+ e;name=automation;extends=base;package=org/nuxeo/ecm/automation/serve
+ r/jaxrs
+Nuxeo-Component: OSGI-INF/AutomationServer.xml,OSGI-INF/auth-contrib.x
+ ml,OSGI-INF/batchmanager-framework.xml,OSGI-INF/binding-contrib.xml,O
+ SGI-INF/pageprovider-contrib.xml
+Nuxeo-AllowOverride: true
+Import-Package: javax.mail,javax.mail.internet,javax.mail.util,javax.s
+ ervlet;resolution:=optional,javax.servlet.http;resolution:=optional,j
+ avax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,net.sf.json,org.apache.co
+ mmons.logging,org.joda.time,org.joda.time.format,org.nuxeo.common.uti
+ ls,org.nuxeo.common.xmap,org.nuxeo.common.xmap.annotation,org.nuxeo.e
+ cm.automation,org.nuxeo.ecm.automation.core,org.nuxeo.ecm.automation.
+ core.doc,org.nuxeo.ecm.automation.core.scripting,org.nuxeo.ecm.automa
+ tion.core.util,org.nuxeo.ecm.core.api,org.nuxeo.ecm.core.api.impl,org
+ .nuxeo.ecm.core.api.impl.blob,org.nuxeo.ecm.core.api.model,org.nuxeo.
+ ecm.core.api.model.impl,org.nuxeo.ecm.core.api.model.impl.primitives,
+ org.nuxeo.ecm.core.schema,org.nuxeo.ecm.core.schema.types,org.nuxeo.e
+ cm.core.schema.utils,org.nuxeo.ecm.webengine.jaxrs.context,org.nuxeo.
+ ecm.webengine.jaxrs.session,org.nuxeo.ecm.webengine.jaxrs.views,org.n
+ uxeo.runtime,org.nuxeo.runtime.api,org.nuxeo.runtime.model,org.osgi.f
+ ramework;version="1.5.0"
+Require-Bundle: org.nuxeo.ecm.automation.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

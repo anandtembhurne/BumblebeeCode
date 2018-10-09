@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pages>
+
+  
+<!--  bind url for forced invalidation of nav tree -->
+<page action="#{treeInvalidator.forceTreeRefresh}" view-id="/invalidateTree.xhtml"/>
+<page action="#{treeActions.forceTreeRefresh}" view-id="/invalidateConversationTree.xhtml"/>
+
+<page view-id="/search/search.xhtml">
+      breadcrumb=breadcrumb.search
+    </page>
+
+<page view-id="/search/tag_search_results.xhtml">
+      breadcrumb=label.virtualnavigation.tag
+    </page>
+
+<!-- This calls a method which load the Workspace logo -->
+<page action="#{logoHelper.getLogo}" view-id="/showLogo.xhtml"/>
+<page action="#{navigationContext.navigateToURL}" view-id="/getDocument.xhtml"/>
+<page action="#{liveEditHelper.getBootstrap()}" view-id="/nxliveedit.xhtml"/>
+<page action="#{paralleleNavigationHelper.navigateToURL}" view-id="/parallele.xhtml"/>
+<page
+    action="#{startupHelper.initDomainAndFindStartupPage('Domain', 'view')}" view-id="/nxstartup.xhtml"/>
+<page view-id="/view_domains.xhtml">
+      #{currentServerLocation.name}/#{currentTabAction.label}
+    </page>
+<page view-id="/select_document_type.faces.xhtml">
+      Create new document in #{currentDocument.name}
+    </page>
+<page view-id="/create_document.faces.xhtml">
+      Create new document in #{currentDocument.name}
+    </page>
+
+<!-- Bind url to start the download -->
+<page action="#{externalLinkManager.startDownload()}" view-id="/nxconnectDownload.xhtml"/>
+
+
+</pages>

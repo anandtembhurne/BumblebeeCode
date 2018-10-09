@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: uno
+Build-Jdk: 1.8.0_121
+Bundle-ManifestVersion: 1
+Bundle-Version: 1.0.0
+Bundle-Name: Nuxeo User WebEngine Invite
+Bundle-SymbolicName: org.nuxeo.ecm.webengine.invite;singleton:=true
+Bundle-Vendor: Nuxeo
+Nuxeo-WebModule: org.nuxeo.ecm.webengine.app.WebEngineModule;name=invi
+ te;extends=base;headless=true
+Nuxeo-AllowOverride: true
+Nuxeo-Component: OSGI-INF/invite-auth-contrib.xml
+

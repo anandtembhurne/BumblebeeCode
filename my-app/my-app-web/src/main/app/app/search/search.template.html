@@ -1,0 +1,16 @@
+<div class="main">
+  <form (ngSubmit)="searchDocuments(searchValue)" autocomplete="off">
+    <input [ngModel]="searchValue" (ngModelChange)="searchValue=$event"
+        placeholder="Search a document" [ngModelOptions]="{standalone: true}" autofocus>
+
+    <button md-raised-button color="primary">Submit Value</button>
+  </form>
+</div>
+
+<div class="result">
+  <div [class.hidden]="!documents || documents.length">No results found.</div>
+  <div [class.hidden]="!loading">Loading...</div>
+  <div [class.hidden]="!error">{{error}}</div>
+  <document *ngFor="let document of documents" [document]="document"></document>
+  <div style="clear: both;"></div>
+</div>

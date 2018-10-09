@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.ecm.platform.query.api.PageProviderservice.replacers.defaultConfig">
+
+  <extension target="org.nuxeo.ecm.platform.query.api.PageProviderService" point="replacers">
+
+    <replacer withClass="org.nuxeo.elasticsearch.provider.ElasticSearchNxqlPageProvider"
+      enabled="${elasticsearch.enabled:=true}">
+      <provider>default_search</provider>
+      <provider>document_content</provider>
+      <provider>section_content</provider>
+      <provider>document_content</provider>
+      <provider>tree_children</provider>
+      <provider>default_document_suggestion</provider>
+      <provider>simple_search</provider>
+      <provider>advanced_search</provider>
+      <provider>nxql_search</provider>
+      <provider>DEFAULT_DOCUMENT_SUGGESTION</provider>
+    </replacer>
+
+  </extension>
+</component>

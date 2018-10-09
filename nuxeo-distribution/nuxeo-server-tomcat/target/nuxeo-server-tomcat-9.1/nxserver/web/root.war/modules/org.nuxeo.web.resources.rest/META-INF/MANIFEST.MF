@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: uno
+Build-Jdk: 1.8.0_121
+Bundle-ManifestVersion: 1
+Bundle-Version: 9.1-t20180309-112742
+Bundle-Name: Nuxeo Web Resources REST
+Bundle-SymbolicName: org.nuxeo.web.resources.rest;singleton:=true
+Bundle-Localization: plugin
+Fragment-Host: org.nuxeo.ecm.platform.restapi.server
+Bundle-Vendor: Nuxeo
+

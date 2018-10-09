@@ -1,0 +1,20 @@
+<components xmlns="http://jboss.com/products/seam/components"
+  xmlns:mail="http://jboss.com/products/seam/mail">
+
+  <component name="org.jboss.seam.core.init">
+    <property name="debug">false</property>
+    <property name="myFacesLifecycleBug">false</property>
+    <property name="jndiPattern">nuxeo/#{ejbName}/local</property>
+  </component>
+
+  <component name="org.jboss.seam.core.manager">
+    
+<property name="conversationTimeout">1800000</property>
+<property name="concurrentRequestTimeout">1000</property>
+
+  </component>
+
+  <!-- Mail configuration -->
+  <mail:mailSession sessionJndiName="java:/Mail" />
+
+</components>

@@ -1,0 +1,27 @@
+{
+  "name": "nuxeo",
+  "main": [
+    "lib/jquery/nuxeo.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.8.3"
+  },
+  "homepage": "https://github.com/nuxeo/nuxeo-js-client",
+  "version": "0.9.0",
+  "_release": "0.9.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.9.0",
+    "commit": "b7d0a89d26e89cb9659ff7f60e6df65cef6810a7"
+  },
+  "_source": "https://github.com/nuxeo/nuxeo-js-client.git",
+  "_target": "0.9.0",
+  "_originalSource": "https://github.com/nuxeo/nuxeo-js-client.git"
+}

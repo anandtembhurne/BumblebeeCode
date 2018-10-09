@@ -1,0 +1,66 @@
+<project name="static-war-tests"
+         xmlns:artifact="urn:nuxeo-artifact">
+  <taskdef resource="org/nuxeo/build/antlib.xml" uri="urn:nuxeo-build"/>
+  <taskdef resource="org/nuxeo/build/artifact/antlib.xml"
+           uri="urn:nuxeo-artifact"/>
+  <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+
+  <property name="out.dir" value="${maven.project.build.directory}"/>
+  <property name="nuxeo.war" value="${out.dir}/nuxeo-war.zip"/>
+  <unzip dest="${out.dir}/" overwrite="false">
+    <artifact:resolveFile key="org.nuxeo:nuxeo-ftest::zip"/>
+  </unzip>
+  <import file="${out.dir}/nuxeo-ftest.xml"/>
+
+  <target name="prepare-environment"
+          depends="_init,prepare-db,prepare-tomcat,prepare-monitor"
+          description="prepare all ressources for test">
+
+    <antcall target="create-pack"/>
+
+    <var name="server.gav" unset="true"/>
+    <property name="server.gav" value="org.apache.tomcat:tomcat::zip"/>
+    <antcall target="download"/>
+    <antcall target="deploy-war"/>
+
+    <antcall target="_use-catalina"/>
+  </target>
+
+  <target name="start" depends="_init,stop,start-unix,start-windows">
+    <!-- Sadly, Tomcat startup return too quickly -->
+    <waitfor maxwait="120" maxwaitunit="second">
+      <http url="http://localhost:8080/nuxeo"/>
+    </waitfor>
+  </target>
+
+  <target name="stop" depends="_init,_use-catalina,stop-unix,stop-windows">
+    <if>
+      <equals arg1="${env.KILL_TOMCAT}" arg2="true"/>
+      <then>
+        <antcall target="kill-tomcat"/>
+      </then>
+    </if>
+  </target>
+
+  <target name="create-pack">
+    <delete failonerror="false" file="${nuxeo.war}"/>
+    <chmod dir="${nuxeo.home}/bin" perm="ug+x" includes="*.sh,*ctl"/>
+    <exec executable="${nuxeo.ctl}" spawn="false" failonerror="true">
+      <arg value="pack"/>
+      <arg value="--"/>
+      <arg value="${nuxeo.war}"/>
+    </exec>
+  </target>
+
+  <target name="deploy-war">
+    <unzip src="${nuxeo.war}" dest="${nuxeo.home}/"/>
+  </target>
+
+  <target name="_use-catalina">
+    <!-- Reset ${nuxeo.ctl} for using `catalina.sh` instead -->
+    <var name="nuxeo.ctl" unset="true"/>
+    <condition property="nuxeo.ctl" value="${nuxeo.home}/bin/catalina.sh" else="${nuxeo.home}/bin/catalina.bat">
+      <isset property="osfamily-unix"/>
+    </condition>
+  </target>
+</project>

@@ -1,0 +1,153 @@
+<!--
+(C) Copyright 2015 Nuxeo SA (http://nuxeo.com/) and contributors.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the GNU Lesser General Public License
+(LGPL) version 2.1 which accompanies this distribution, and is available at
+http://www.gnu.org/licenses/lgpl.html
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+Contributors:
+  Nelson Silva <nsilva@nuxeo.com>
+-->
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="nuxeo-aggregate-data-behavior.html">
+<!--
+An element providing metrics data on workflows.
+
+A query is a configurable nested aggregation with 3 aggregation levels:
+
+- `grouped-by`: top level term aggregations (comma-separated values)
+- `with-*`: nested multi-bucket aggregation (with-ranges | with-date-intervals)
+- `metrics`: leaf single-value metrics aggregation (max, min, avg, sum)
+
+Example:
+
+    <nuxeo-workflow-data workflow="worflowModelName"
+                            task="taskName"
+                            grouped-by="action"
+                            with-ranges='{
+                              "duration":[
+                                {"key":"quick", "to":"1500"},
+                                {"key":"slow", "from":"1500"}
+                              ]}'
+                            metrics="sum(amount)"
+                            start-date="[[startDate]]"
+                            end-date="[[endDate]]"
+                            data="{{data}}">
+    </nuxeo-workflow-data>
+
+If all the aggregation levels are configured it will produce a query like:
+
+    {
+      query: { bool: { must: [...] },
+      aggs: {
+        by: { // aggregated-on
+          terms: {
+            field: "extended.action"
+          },
+          aggs: {
+            by: {  // with-ranges | with-date-intervals
+              range : {
+                field : "extended.duration",
+                ranges: [...]
+              },
+              aggs: {
+                metric: { // metric
+                  sum: {
+                    field : "extended.workflowVariables.amount"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+@group Nuxeo Data Visualization Elements
+@element nuxeo-workflow-data
+@demo demo/workflow.html
+-->
+<script>
+
+  Polymer({
+
+    is: 'nuxeo-workflow-data',
+
+    behaviors: [Nuxeo.AggregateDataBehavior],
+
+    properties: {
+
+      index: {
+        type: String,
+        value: 'audit_wf'
+      },
+
+      /**
+       * the name of the event to filter by
+       */
+      event: {
+        type: String,
+        value: ''
+      },
+
+      /**
+       * the workflow model name
+       */
+      workflow: String,
+
+      /**
+       * the name of the task to filter by
+       */
+      task: {
+        type: String,
+        value: ''
+      },
+
+      /**
+       * Date field to use
+       **/
+      dateField: {
+        type: String,
+        value: 'eventDate'
+      }
+
+    },
+
+    observers: [
+      '_query(workflow, startDate, endDate)',
+      '_aggregates(groupedBy, withRanges, withDateIntervals, metrics, metricsOperator, startDate, endDate)'
+    ],
+
+    _query: function() {
+      var event = this.event || (this.task ? 'afterWorkflowTaskEnded' : 'afterWorkflowFinish');
+
+      var terms = [
+        {term: {"eventId": event}},
+        {term: {"extended.modelName": this.workflow}}
+      ];
+
+      if (this.task) {
+        terms.push({term: { 'extended.taskName': this.task}});
+      }
+      if (this._dateRange) {
+        terms.push(this._dateRange);
+      }
+
+      this.query = this._buildTerms(terms);
+    },
+
+    // @override
+    _fieldFor: function(column) {
+      // TODO: limit 'exposed' fields to system field (ex: 'user', 'taskName', 'action', 'duration', etc) and 'workflowVariables.*'
+      return 'extended.' + column;
+    }
+
+  });
+
+</script>

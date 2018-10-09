@@ -1,0 +1,34 @@
+{
+  "name": "nuxeo-elements",
+  "version": "0.2.4",
+  "authors": [
+    "Nelson Silva <nsilva@nuxeo.com>"
+  ],
+  "description": "Nuxeo Web Components",
+  "license": "LGPL",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.4",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.4",
+    "nuxeo": "0.9.0",
+    "es6-promise": "2.2.0",
+    "select2": "3.5.2"
+  },
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#1.0.5"
+  },
+  "homepage": "https://github.com/nuxeo/nuxeo-elements",
+  "_release": "0.2.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.4",
+    "commit": "b0ffa50b685cd4e0a6c899ed5a9800b97d31eea3"
+  },
+  "_source": "git://github.com/nuxeo/nuxeo-elements.git",
+  "_target": "0.2.4",
+  "_originalSource": "git://github.com/nuxeo/nuxeo-elements.git"
+}

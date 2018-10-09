@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: uno
+Build-Jdk: 1.8.0_121
+Bundle-ManifestVersion: 1
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-restapi-server 
+Bundle-SymbolicName: org.nuxeo.ecm.platform.restapi.server;singleton:=
+ true
+Bundle-Vendor: Nuxeo
+Nuxeo-WebModule: org.nuxeo.ecm.restapi.server.jaxrs.APIModule;name=api
+ ;extends=automation;package=org/nuxeo/ecm/restapi/server/jaxrs;headle
+ ss=true
+Nuxeo-Component: OSGI-INF/docviewurl-service-contrib.xml,OSGI-INF/auth
+ -contrib.xml,OSGI-INF/searchadapter-pp-contrib.xml,OSGI-INF/json-enri
+ chers-contrib.xml
+

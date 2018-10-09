@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: uno
+Build-Jdk: 1.8.0_121
+Bundle-ManifestVersion: 2
+Bundle-Version: 0.0.0.SNAPSHOT
+Export-Package: org.nuxeo.elasticsearch.http.readonly
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Localization: bundle
+Bundle-Name: Elasticsearch HTTP Read Only API
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.nuxeo.ecm.webengine.core,org.nuxeo.elasticsearch.c
+ ore
+Bundle-Vendor: Nuxeo
+Bundle-SymbolicName: org.nuxeo.elasticsearch.http.readonly;singleton:=
+ true
+Nuxeo-WebModule: org.nuxeo.ecm.webengine.app.WebEngineModule
+Nuxeo-Component: OSGI-INF/request-filter-service.xml,OSGI-INF/es-audit
+ -http-readonly-filter.xml
+

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.runtime.datasource.server.contrib">
+
+  <extension target="org.nuxeo.runtime.datasource" point="datasources">
+    <datasource name="jdbc/nuxeo" driverClassName="org.postgresql.Driver"
+      url="jdbc:postgresql://localhost:5432/nuxeo1" username="nuxeo" password="nuxeo"
+      maxPoolSize="100" 
+      minPoolSize="5"
+      blockingTimeoutMillis="1000"
+      idleTimeoutMinutes="5"
+      activeTimeoutMinutes="5"
+      sqlExceptionSorter="org.nuxeo.runtime.datasource.DatasourceExceptionSorter"
+      validationQuery=""
+      accessToUnderlyingConnectionAllowed="true" />
+    <link name="jdbc/NuxeoDS" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxsqldirectory" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxrelations-default-jena" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/comment-relations" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxaudit-logs" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxjbpm" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/placeful_service_ds" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxwebwidgets" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxuidsequencer" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/repository_default" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxquartz" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+    <link name="jdbc/nxquartz_no_tx" global="jdbc/nuxeo" type="javax.sql.DataSource" />
+  </extension>
+</component>

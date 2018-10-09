@@ -1,0 +1,193 @@
+<!--
+(C) Copyright 2015 Nuxeo SA (http://nuxeo.com/) and contributors.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the GNU Lesser General Public License
+(LGPL) version 2.1 which accompanies this distribution, and is available at
+http://www.gnu.org/licenses/lgpl.html
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+Contributors:
+  Nelson Silva <nsilva@nuxeo.com>
+-->
+<link rel="import" href="../jquery-import.html">
+
+<script>
+
+  // load select2 if not available
+  if (!window.Select2) {
+    // document object of the imported HTML file
+    var ownerDocument = (document._currentScript || document.currentScript).ownerDocument;
+    var script = ownerDocument.createElement('script');
+    script.async = true;
+    script.src = '../../select2/select2.js';
+    ownerDocument.head.appendChild(script);
+  }
+
+  var Nuxeo = Nuxeo || {};
+
+  /**
+   * @polymerBehavior Nuxeo.Select2
+   */
+  Nuxeo.Select2 = {
+
+    properties: {
+
+      value: {
+        notify: true,
+        observer: 'valueChanged'
+      },
+
+      multiple: {
+        type: Boolean,
+        value: false
+      },
+
+      readOnly: {
+        type: Boolean,
+        value: false
+      },
+
+      minChars: {
+        type: Number,
+        value: 3
+      },
+
+      placeholder: String,
+
+      separator: {
+        type: String,
+        value: ','
+      },
+
+      idFunction: {
+        type: Function,
+        value: function () {
+          return this._idFunction.bind(this);
+        }
+      },
+
+      selectionFormatter: {
+        type: Function,
+        value: function () {
+          return this._selectionFormatter.bind(this);
+        }
+      },
+
+      resultFormatter: {
+        type: Function,
+        value: function () {
+          return this._resultFormatter.bind(this);
+        }
+      },
+
+      initSelection: {
+        type: Function,
+        value: function () {
+          return this._initSelection.bind(this);
+        }
+      }
+
+    },
+
+    _idFunction: function (item) {
+      return item.computedId || item.uid || item.id;
+    },
+
+    _selectionFormatter: function (item) {
+      return item.displayLabel || item.title;
+    },
+
+    _resultFormatter: function (item) {
+      return item.displayLabel || item.title;
+    },
+
+    _initSelection: function(element, callback) {
+      if (!this.multiple) {
+        return callback({
+          id: this.value,
+          displayLabel: this.value
+        });
+      }
+      return callback(
+        this.value.map(function(entry) {
+          return {
+            id: entry,
+            displayLabel: entry
+          };
+        })
+      );
+    },
+
+    _initSelect2: function (el) {
+      this._el = el;
+
+      var params = {
+        minimumInputLength: this.minChars,
+        separator: this.separator,
+        width: "100%",
+        // Formatters
+
+        id: this.idFunction,
+
+        formatSelection: this.selectionFormatter,
+        formatResult: this.resultFormatter,
+        // TODO: use templates for formatting, ie:
+        // var selectionTemplate = Polymer.dom(this).querySelector('.selection');
+        // this.templatize(template);
+        // var instance = this.stamp({username: 'Administrator'});
+        // return instance.root.textContent;
+
+        initSelection: this.initSelection,
+
+        // Query
+        query: function (query) {
+          // debounce requests
+          this.debounce('_select2Query', function () {
+            this._query(query);
+          }.bind(this), 300);
+        }.bind(this)
+      };
+
+      if (this.multiple) {
+        params.maximumSelectionSize = this.maximumSelectionSize;
+        params.multiple = true;
+      }
+
+      if (this.placeholder && !this.readonly) {
+        params.placeholder = this.placeholder;
+        params.allowClear = !this.required;
+      }
+
+      // init select2
+      jQuery(el).val(this.value).select2(params);
+
+      jQuery(el).on('change', this._updateSelection.bind(this));
+
+      // view or edit mode
+      if (this.readOnly) {
+        jQuery(el).select2('readonly', true);
+      }
+
+    },
+
+    _updateSelection: function (e) {
+      var value = e.target.value;
+      this.value = (!this.multiple) ? value : value.split(this.separator);
+    },
+
+    valueChanged: function (newValue) {
+      if (this._el) {
+        jQuery(this._el).select2('val', newValue);
+      }
+    },
+
+    // Extension points for sub-classes
+    _query: function (query) {
+    }
+  };
+</script>

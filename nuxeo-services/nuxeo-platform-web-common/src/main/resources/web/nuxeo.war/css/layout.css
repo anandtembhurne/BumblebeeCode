@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("bootstrap.min.css");
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.topbar {
+	background-color: #dedccd;
+}
+.logo {
+	width: 266px;
+	height: 53px;
+	float: left;
+	margin: 8px 0px;
+}
+.log-out-div {
+	padding-top: 100px;
+}
+.login-con {
+	width: 490px;
+	background-image: url(img/border-bg.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	min-height: 350px;
+	float: left;
+}
+.log-box {
+	width: 370px;
+	background-color: #f2f2f2;
+	border-bottom: 3px solid #d0d0d0;
+	padding: 0px;
+	min-height: 150px;
+}
+.log-head {
+	width: 100%;
+	background-color: #ae2b30;
+	padding: 6px 8px;
+}
+.log-head h2 {
+	font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px 34px;
+    margin: 0px;
+    color: #FFF;
+    background-image: url(img/log-head.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    line-height: 12px;
+    vertical-align: middle;
+}
+.log-bg {
+	background-image: url(img/logbg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 287px;
+	width: 614px;
+	float: right;
+	
+}
+.user-log
+{
+	background: #FFF url(img/user-bg.png) no-repeat right;
+	font-size: 14px;
+	color: #333;
+	padding: 10px;
+	border: 1px solid #d6d6d6;
+	width:100%;
+	margin-bottom: 15px;
+	outline:none;
+}
+
+.pwd-log
+{
+	background: #FFF url(img/pwd-bg.png) no-repeat right;
+	font-size: 14px;
+	color: #333;
+	padding:10px;
+	border: 1px solid #d6d6d6;
+	width:100%;
+	margin-bottom: 15px;
+	outline:none;
+}
+
+.login_button
+{
+	background: #f9851e;
+    padding: 10px;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+.errorMessage 
+{
+	color: #c7070e;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.log-inner-con
+{
+	width:320px;
+	margin: 0 auto;
+	padding: 30px 0px;
+}
+.logfooter {
+	background: #034c83;
+	padding: 8px 0px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 12px;
+	color: #FFF;
+}

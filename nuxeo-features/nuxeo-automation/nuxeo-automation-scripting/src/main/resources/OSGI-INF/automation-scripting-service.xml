@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.automation.scripting.internals.AutomationScriptingComponent" version="1.0">
+
+  <require>org.nuxeo.ecm.core.operation.OperationServiceComponent</require>
+
+  <implementation class="org.nuxeo.automation.scripting.internals.AutomationScriptingComponent" />
+
+  <service>
+      <provide interface="org.nuxeo.automation.scripting.api.AutomationScriptingService" />
+  </service>
+
+  <extension-point name="operation">
+    <documentation>
+      <scriptedOperation id="Scripting.HelloWorld">
+        <inputType>string</inputType>
+        <outputType>string</outputType>
+        <param name="lang" type="string"/>
+        <script>
+          function run(input, params) {
+          if (params.lang === "fr") {
+          return "Bonjour " + input;
+          } else {
+          return "Hello " + input;
+          }
+          }
+        </script>
+      </scriptedOperation>
+    </documentation>
+    
+    <object
+      class="org.nuxeo.automation.scripting.internals.operation.ScriptingOperationDescriptor" />
+  </extension-point>
+
+</component>

@@ -1,0 +1,52 @@
+<!doctype html>
+<!--
+(C) Copyright 2015 Nuxeo SA (http://nuxeo.com/) and contributors.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the GNU Lesser General Public License
+(LGPL) version 2.1 which accompanies this distribution, and is available at
+http://www.gnu.org/licenses/lgpl.html
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+Contributors:
+  Nelson Silva <nsilva@nuxeo.com>
+-->
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../iron-component-page/iron-component-page.html">
+  <style>
+    header[main]   {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 15px 20px;
+      background-color: #fff;
+      box-sizing: border-box;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    }
+    #logo {
+      background:transparent url('https://sso.nuxeo.com/cas/images/logo_connect_white.png') no-repeat;
+      background-size: cover;
+      display: inline-block;
+      height:28px;
+      width:160px;
+    }
+  </style>
+</head>
+<body unresolved>
+  <header main>
+    <a href="#" id="logo"></a>
+  </header>
+  <iron-component-page style="top:64px"></iron-component-page>
+</body>
+</html>

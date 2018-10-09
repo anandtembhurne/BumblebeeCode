@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+  version="2.0">
+
+  <factory>
+
+    
+<render-kit-factory>
+      org.nuxeo.ecm.platform.ui.web.application.NuxeoRenderKitFactoryImpl
+    </render-kit-factory>
+
+
+  </factory>
+
+  
+
+  <navigation-rule>
+
+    
+<navigation-case>
+    <from-outcome>editor_link_search_document</from-outcome>
+    <to-view-id>/editor_link_search_document.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>editor_image_upload</from-outcome>
+    <to-view-id>/editor_image_upload.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<!-- export links -->
+<navigation-case>
+    <from-outcome>export</from-outcome>
+    <to-view-id>/incl/export/export.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>pdf</from-outcome>
+    <to-view-id>/incl/export/document_view_pdf.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>preview_popup</from-outcome>
+    <to-view-id>/preview_popup.xhtml</to-view-id>
+</navigation-case>
+
+<!-- register seam template so that excel generation plays
+      well with url service -->
+<navigation-case>
+    <from-outcome>seam_docstore</from-outcome>
+    <to-view-id>/seam/docstore/document.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>search</from-outcome>
+    <to-view-id>/search/search.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<!-- generic pages -->
+<navigation-case>
+    <from-outcome>send_notification_email</from-outcome>
+    <to-view-id>/document_notif_email.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<!-- register seam template so that excel generation plays
+      well with url service -->
+<navigation-case>
+    <from-outcome>rendition</from-outcome>
+    <to-view-id>/rendition/rendition.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>tag_search_results</from-outcome>
+    <to-view-id>/search/tag_search_results.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<!-- generic pages -->
+<navigation-case>
+    <from-outcome>generic_error_page</from-outcome>
+    <to-view-id>/generic_error_page.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>generic_message_page</from-outcome>
+    <to-view-id>/generic_message_page.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>home</from-outcome>
+    <to-view-id>/nxstartup.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>user_login</from-outcome>
+    <to-view-id>/login.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>user_logout</from-outcome>
+    <to-view-id>/logout.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>view_servers</from-outcome>
+    <to-view-id>/view_servers.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>view_domains</from-outcome>
+    <to-view-id>/view_domains.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>select_document_type</from-outcome>
+    <to-view-id>/select_document_type.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>create_document</from-outcome>
+    <to-view-id>/create_document.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>edit_document</from-outcome>
+    <to-view-id>/edit_document.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>view_documents</from-outcome>
+    <to-view-id>/view_documents.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>create_file</from-outcome>
+    <to-view-id>/create_file.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>send_email</from-outcome>
+    <to-view-id>/document_email.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>create_domain</from-outcome>
+    <to-view-id>/create_domain.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>create_workspace</from-outcome>
+    <to-view-id>/create_workspace.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>info_view</from-outcome>
+    <to-view-id>/info_view.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>pdf_generation_error</from-outcome>
+    <to-view-id>/pdf_generation_error.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>view_home</from-outcome>
+    <to-view-id>/view_home.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>home_view_documents</from-outcome>
+    <to-view-id>/home_view_documents.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>view_admin</from-outcome>
+    <to-view-id>/view_admin.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>admin_view_documents</from-outcome>
+    <to-view-id>/admin_view_documents.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>confirm_download</from-outcome>
+    <to-view-id>/connect_confirm_download.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>can_not_download</from-outcome>
+    <to-view-id>/connect_download_not_possible.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>view_workflow</from-outcome>
+    <to-view-id>/view_workflow.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>suggest_add_new_directory_entry</from-outcome>
+    <to-view-id>/widgets/suggest_add_new_directory_entry_iframe.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>csv</from-outcome>
+    <to-view-id>/incl/export/content_view_csv.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>xl</from-outcome>
+    <to-view-id>/incl/export/content_view_xl.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>atom</from-outcome>
+    <to-view-id>/incl/export/content_view_atom.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>rss</from-outcome>
+    <to-view-id>/incl/export/content_view_rss.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>content_view_pdf</from-outcome>
+    <to-view-id>/incl/export/content_view_pdf.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>edit_route_element</from-outcome>
+    <to-view-id>/edit_route_element.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>create_route_element</from-outcome>
+    <to-view-id>/create_route_element.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+<navigation-case>
+    <from-outcome>route_to_pdf</from-outcome>
+    <to-view-id>/view_pdf_route.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+<navigation-case>
+    <from-outcome>create_relation_search_document_popup</from-outcome>
+    <to-view-id>/create_relation_search_document_popup.xhtml</to-view-id>
+    <redirect/>
+</navigation-case>
+
+
+  </navigation-rule>
+
+  
+<managed-bean>
+    <managed-bean-name>nuxeoWebResourceDispatcher</managed-bean-name>
+    <managed-bean-class>
+        org.nuxeo.ecm.webapp.resources.NuxeoWebResourceDispatcher
+      </managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+</managed-bean>
+
+<managed-bean>
+    <managed-bean-name>editableListBean</managed-bean-name>
+    <managed-bean-class>
+        org.nuxeo.ecm.platform.ui.web.component.list.EditableListBean
+      </managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+    <managed-bean-name>nuxeoValueHolderBean</managed-bean-name>
+    <managed-bean-class>
+        org.nuxeo.ecm.platform.ui.web.component.holder.NuxeoValueHolderBean
+      </managed-bean-class>
+    <managed-bean-scope>view</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+    <managed-bean-name>nuxeoAliasBean</managed-bean-name>
+    <managed-bean-class>
+        org.nuxeo.ecm.platform.ui.web.binding.alias.NuxeoAliasBean
+      </managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+</managed-bean>
+
+<managed-bean>
+    <managed-bean-name>nuxeoLayoutManagerBean</managed-bean-name>
+    <managed-bean-class>
+        org.nuxeo.ecm.platform.forms.layout.actions.NuxeoLayoutManagerBean
+      </managed-bean-class>
+    <managed-bean-scope>session</managed-bean-scope>
+</managed-bean>
+<managed-bean>
+    <managed-bean-name>nuxeoLayoutIdManager</managed-bean-name>
+    <managed-bean-class>
+        org.nuxeo.ecm.platform.forms.layout.facelets.NuxeoLayoutIdManagerBean
+      </managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+</managed-bean>
+
+<managed-bean>
+    <managed-bean-name>relationCreationBean</managed-bean-name>
+    <managed-bean-class>
+        org.nuxeo.ecm.platform.relations.web.listener.ejb.RelationCreationBean
+      </managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+</managed-bean>
+
+
+  <!-- Facelets support -->
+  <application>
+
+    
+<navigation-handler>
+      org.nuxeo.ecm.platform.ui.web.rest.FancyNavigationHandler
+    </navigation-handler>
+<el-resolver>org.nuxeo.ecm.platform.el.DocumentModelResolver</el-resolver>
+<resource-handler>
+      org.nuxeo.ecm.platform.ui.web.application.NuxeoResourceHandler
+    </resource-handler>
+
+
+    
+<locale-config>
+    <default-locale>en</default-locale>
+    <supported-locale>en_GB</supported-locale>
+    <supported-locale>en_US</supported-locale>
+</locale-config>
+<message-bundle>messages</message-bundle>
+
+<locale-config>
+    <supported-locale>de</supported-locale>
+    <!-- German - Germany -->
+    <supported-locale>de_DE</supported-locale>
+    <!-- German - Germany -->
+    <supported-locale>es</supported-locale>
+    <!-- Spanish - Spain -->
+    <supported-locale>es_ES</supported-locale>
+    <!-- Spanish - Spain -->
+    <supported-locale>eu_ES</supported-locale>
+    <!-- Basque -->
+    <supported-locale>fr</supported-locale>
+    <!-- French - France -->
+    <supported-locale>fr_FR</supported-locale>
+    <!-- French - France -->
+    <supported-locale>ja</supported-locale>
+    <!-- Japanese (Gregorian calendar) - Japan -->
+    <supported-locale>ja_JP</supported-locale>
+    <!-- Japanese (Gregorian calendar) - Japan -->
+    <supported-locale>nl</supported-locale>
+    <!-- Dutch - Netherlands -->
+    <supported-locale>nl_NL</supported-locale>
+    <!-- Dutch - Netherlands -->
+    <supported-locale>sq_AL</supported-locale>
+    <!-- Albanian -->
+    <supported-locale>sv_SE</supported-locale>
+    <!-- Swedish -->
+    <supported-locale>zh_CN</supported-locale>
+    <!-- Chinese (Simplified) - China -->
+</locale-config>
+
+
+  </application>
+
+  <lifecycle>
+
+    
+<!-- This is registered after SeamPhaseListener because
+      JSF-RI reads /WEB-INF/faces-config.xml after
+      lib jar's META-INF/faces-config.xml -->
+<phase-listener>
+      org.nuxeo.ecm.platform.ui.web.rest.RestfulPhaseListener
+    </phase-listener>
+<phase-listener>
+      org.nuxeo.ecm.platform.ui.web.rest.JSFDebugPhaseListener
+    </phase-listener>
+
+<phase-listener>
+      org.nuxeo.ecm.platform.forms.layout.facelets.LayoutPhaseListener
+    </phase-listener>
+
+
+  </lifecycle>
+
+  <!-- custom components, renderers, tags -->
+
+  
+<component>
+    <component-type>nuxeo.web.theme.disabled</component-type>
+    <component-class>
+        org.nuxeo.theme.migration.tag.component.DisabledThemeComponent
+      </component-class>
+</component>
+
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.binding.alias.UIAliasHolder
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.binding.alias.UIAliasHolder
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.UISelectItems
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.UISelectItems
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.UISelectItem
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.UISelectItem
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.editor.UIHtmlEditor
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.editor.UIHtmlEditor
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.file.UIInputFile
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.file.UIInputFile
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.file.UIOutputFile
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.file.UIOutputFile
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.file.UIOutputFileCommandLink
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.file.UIOutputFileCommandLink
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.directory.UIDirectorySelectItems
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.UIDirectorySelectItems
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.directory.UIDirectorySelectItem
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.UIDirectorySelectItem
+      </component-class>
+</component>
+<component>
+    <component-type>nxdirectory.DirectoryEntryOutput</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.DirectoryEntryOutputComponent
+      </component-class>
+</component>
+<component>
+    <component-type>nxdirectory.ChainSelectOutput</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelectOutputComponent
+      </component-class>
+</component>
+<component>
+    <component-type>nxdirectory.chainSelectListbox</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelectListboxComponent
+      </component-class>
+</component>
+<component>
+    <component-type>nxdirectory.chainSelect</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelect
+      </component-class>
+</component>
+<component>
+    <component-type>nxdirectory.chainSelectStatus</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelectStatus
+      </component-class>
+</component>
+<component>
+    <component-type>nxdirectory.ChainSelectOne</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelectOne
+      </component-class>
+</component>
+<component>
+    <component-type>nxdirectory.ChainSelectMany</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelectMany
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.list.UIEditableList
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.list.UIEditableList
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.list.UIJavascriptList
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.list.UIJavascriptList
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.document.RestDocumentLink
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.document.RestDocumentLink
+      </component-class>
+</component>
+<component>
+    <component-type>nuxeo.web.disabled</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.DisabledComponent
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.holder.UIValueHolder
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.holder.UIValueHolder
+      </component-class>
+</component>
+<component>
+    <component-type>
+        javax.faces.HtmlInputText
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.html.NXHtmlInputText
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIFeed
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIFeed
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIEntry
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIEntry
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIColumn
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIColumn
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UICellExcel
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UICellExcel
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIHtmlText
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIHtmlText
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIImage
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.seam.UIImage
+      </component-class>
+</component>
+<component>
+    <component-type>org.nuxeo.Radio</component-type>
+    <component-class>
+        org.nuxeo.ecm.platform.ui.web.component.radio.UIRadio
+      </component-class>
+</component>
+
+<component>
+    <component-type>
+        org.nuxeo.ecm.web.resources.jsf.component.UIMeta
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.web.resources.jsf.component.UIMeta
+      </component-class>
+</component>
+<component>
+    <component-type>
+        org.nuxeo.ecm.web.resources.jsf.component.UIFavicon
+      </component-type>
+    <component-class>
+        org.nuxeo.ecm.web.resources.jsf.component.UIFavicon
+      </component-class>
+</component>
+
+
+  <render-kit>
+
+    
+<renderer>
+    <component-family>javax.faces.Input</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.platform.ui.web.component.editor.UIHtmlEditor
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.editor.HtmlEditorRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Input</component-family>
+    <renderer-type>javax.faces.NXFile</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.file.NXFileRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.SelectBoolean</component-family>
+    <renderer-type>javax.faces.NXCheckbox</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.renderer.NXCheckboxRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Graphic</component-family>
+    <renderer-type>javax.faces.NXImage</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.renderer.NXImageRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.SelectOne</component-family>
+    <renderer-type>javax.faces.Radio</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.renderer.NXRadioRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>nxdirectory.DirectoryEntryOutput</component-family>
+    <renderer-type>nxdirectory.DirectoryEntryOutput</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.directory.DirectoryEntryOutputRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>nxdirectory.ChainSelectOutput</component-family>
+    <renderer-type>nxdirectory.ChainSelectOutput</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelectOutputRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>nxdirectory.chainSelectListbox</component-family>
+    <renderer-type>nxdirectory.chainSelectListbox</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.directory.ChainSelectListboxRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>
+        org.nuxeo.ecm.platform.ui.web.component.document.RestDocumentLink
+      </component-family>
+    <renderer-type>
+        org.nuxeo.ecm.platform.ui.web.component.document.RestDocumentLink
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.document.RestDocumentLinkRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Input</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.platform.ui.web.component.holder.UIValueHolder
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.holder.ValueHolderRenderer
+      </renderer-class>
+</renderer>
+<render-kit>
+    <renderer>
+        <component-family>javax.faces.Form</component-family>
+        <renderer-type>javax.faces.Form</renderer-type>
+        <renderer-class>
+          org.nuxeo.ecm.platformui.web.form.NxFormRenderer
+        </renderer-class>
+    </renderer>
+</render-kit>
+<render-kit>
+    <renderer>
+        <component-family>javax.faces.SelectMany</component-family>
+        <renderer-type>org.nuxeo.NxSelectManyCheckboxList</renderer-type>
+        <renderer-class>
+          org.nuxeo.ecm.platform.ui.web.renderer.NxSelectManyCheckboxListRenderer
+        </renderer-class>
+    </renderer>
+</render-kit>
+<render-kit>
+    <renderer>
+        <component-family>javax.faces.SelectMany</component-family>
+        <renderer-type>org.nuxeo.NxListboxRenderer</renderer-type>
+        <renderer-class>
+          org.nuxeo.ecm.platform.ui.web.renderer.NxListboxRenderer
+        </renderer-class>
+    </renderer>
+</render-kit>
+<renderer>
+    <component-family>javax.faces.SelectOne</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.platform.ui.web.component.radio.SelectOneRadioRenderer
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.radio.SelectOneRadioRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>org.nuxeo.Radio</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.platform.ui.web.component.radio.SingleRadioRenderer
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.radio.SingleRadioRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Messages</component-family>
+    <renderer-type>javax.faces.NXMessages</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.message.NXMessagesRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Message</component-family>
+    <renderer-type>javax.faces.Message</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.component.message.EscapableMessageRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Input</component-family>
+    <renderer-type>javax.faces.Text</renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.platform.ui.web.renderer.NXTextRenderer
+      </renderer-class>
+</renderer>
+
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.web.resources.jsf.Import
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.HTMLImportRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.web.resources.jsf.ImportResource
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.ResourceImportRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        javax.faces.resource.Script
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.NXScriptRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        javax.faces.resource.Stylesheet
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.NXStylesheetRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.web.resources.jsf.Resource
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.ResourceRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.web.resources.jsf.ResourceBundle
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.ResourceBundleRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.web.resources.jsf.PageResource
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.PageResourceRenderer
+      </renderer-class>
+</renderer>
+<renderer>
+    <component-family>javax.faces.Output</component-family>
+    <renderer-type>
+        org.nuxeo.ecm.web.resources.jsf.ResourceInsert
+      </renderer-type>
+    <renderer-class>
+        org.nuxeo.ecm.web.resources.jsf.ResourceInsertRenderer
+      </renderer-class>
+</renderer>
+
+
+  </render-kit>
+
+  
+<!-- This converter is now deprecated, see NXP-6249 -->
+<converter>
+    <converter-id>org.nuxeo.SearchDeletedDocumentsConverter</converter-id>
+    <converter-class>
+        org.nuxeo.ecm.webapp.search.SearchDeletedDocumentsConverter
+      </converter-class>
+</converter>
+
+<converter>
+    <converter-id>DateConverter</converter-id>
+    <converter-class>
+        org.nuxeo.ecm.platform.ui.web.converter.DateConverter
+      </converter-class>
+</converter>
+<converter>
+    <converter-id>TimeConverter</converter-id>
+    <converter-class>
+        org.nuxeo.ecm.platform.ui.web.converter.TimeConverter
+      </converter-class>
+</converter>
+<converter>
+    <converter-id>DateTimeConverter</converter-id>
+    <converter-class>
+        org.nuxeo.ecm.platform.ui.web.converter.DateTimeConverter
+      </converter-class>
+</converter>
+
+
+  
+<validator>
+    <validator-id>InputFileSizeValidator</validator-id>
+    <validator-class>
+        org.nuxeo.ecm.platform.ui.web.component.file.InputFileSizeValidator
+      </validator-class>
+</validator>
+<validator>
+    <validator-id>InputFileMimetypeValidator</validator-id>
+    <validator-class>
+        org.nuxeo.ecm.platform.ui.web.component.file.InputFileMimetypeValidator
+      </validator-class>
+</validator>
+<validator>
+    <validator-id>SortInfoListValidator</validator-id>
+    <validator-class>
+        org.nuxeo.ecm.platform.ui.web.validator.SortInfoListValidator
+      </validator-class>
+</validator>
+<validator>
+    <validator-id>NxDateValidator</validator-id>
+    <validator-class>
+        org.nuxeo.ecm.platform.ui.web.component.date.DateTimeValidator
+      </validator-class>
+</validator>
+<validator>
+    <validator-id>DocumentConstraintValidator</validator-id>
+    <validator-class>
+        org.nuxeo.ecm.platform.ui.web.validator.DocumentConstraintValidator
+      </validator-class>
+</validator>
+
+
+</faces-config>

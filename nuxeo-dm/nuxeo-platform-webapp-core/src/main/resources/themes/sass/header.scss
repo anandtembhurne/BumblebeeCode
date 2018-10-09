@@ -1,0 +1,295 @@
+// ----- Header styles
+.nxHeader {
+  background-color: $header-background;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .18);
+  height: 90px;
+  line-height: initial;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1041;
+}
+
+.nxHeader .logo {   
+  	width: 150px;
+	height: 30px;
+	float: left;
+	margin: 8px 0px;
+}
+
+.nxHeader .logo img {
+  	height: 30px;
+    width: 150px;
+    vertical-align: text-bottom;
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+.nxHeader .content {
+  float: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+  margin:0 auto;
+  clear:both;
+  background-color:#ae2b30;
+  height:44px;
+}
+
+.nxHeader .includes {
+  width: 0;
+}
+
+.nxHeader a,
+.nxHeader a:link,
+.nxHeader a:visited,
+.nxHeader a:hover,
+.nxHeader a:active {
+  color: $header-links;
+  text-decoration: none;
+  transition: none;
+}
+
+.userMenuActions li > .widgetLabel {
+  font-weight: normal;
+}
+
+.nxHeader .actionsWidgetPanel {
+  padding: 0;
+}
+
+.nxHeader .actionLink {
+  margin: inherit;
+}
+
+// =Search
+.search-userinfo-block
+{
+	width:auto;
+	float:right;
+	position:relative;
+	top:3px;
+}
+.userSearchBlock {
+  float: left;
+    /* line-height: 0; */
+    margin: 0PX;
+    text-transform: none;
+    /* transition: all 0.3s ease 0.1s; */
+    border-bottom: 1px solid #CCC;
+    outline:none;
+}
+
+// old search input kept for anonymous dashboard mode
+.userSearchBlock input[type="text"] {
+  opacity: .85;
+  width: 140px;
+}
+
+.userSearchBlock input[type="text"]:focus {
+  opacity: 1;
+  width: 160px;
+}
+
+.userSearchBlock .directoryFilter {
+  background: $shade-light-30 url('${basePath}/icons/search.png') no-repeat 95% center / 16px;
+  border: 1px solid $shade-light-30;
+  border-radius: 1em;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-size: 1em;
+  height: 25px;
+  line-height: normal;
+  margin: 0 .6em 0 0;
+  padding: .4em 2em .3em .6em;
+  transition: all .2s ease .1s;
+}
+
+.userSearchBlock input.button {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  height: 25px;
+  margin: 0 0 0 -23px;
+  padding: 0;
+  text-indent: -9999px;
+  vertical-align: top;
+  width: 20px;
+}
+
+.userSearchBlock input.button:hover {
+  cursor: pointer;
+}
+
+// select2 search input
+.userSearchBlock .select2-container {
+  margin-bottom: 0;
+}
+
+.userSearchBlock .select2-container-multi .select2-choices,
+.userSearchBlock .select2-container-multi.select2-container-active .select2-choices:hover {
+  background: $shade-light-0 url('${basePath}/icons/search.png') no-repeat 98% center / 16px;
+  border-color: transparent;
+  box-shadow: none;
+  transition: background-color .2s ease .1s;
+}
+
+.userSearchBlock .select2-container-multi .select2-choices:hover {
+  background-color: $shade-light-30;
+}
+
+.userSearchBlock .select2-container-multi .select2-choices .select2-search-field input {
+  box-shadow: none;
+  margin: 0;
+  padding-right: 2.5em;
+  text-align: right;
+  outline:none;
+  background:#FFF;
+}
+
+.userSearchBlock .select2-container-multi.select2-container-active .select2-choices .select2-search-field input {
+  text-align: left;
+}
+
+// =UserServices
+.userServicesBlock {
+  float: left;
+  line-height: 44px;
+}
+
+.userServicesBlock a:hover {
+  text-decoration: none;
+}
+
+// =MainTabs
+.mainTabs {
+  float: left;
+  font-size: .9em;
+  font-weight: normal;
+}
+
+.mainTabs li {
+ /* border-top: 3px solid transparent;*/
+  display: inline;
+  float: left;
+  margin: 0px;
+}
+
+.mainTabs a:link,
+.mainTabs a:visited {
+  color: $header-links;
+  display: inline-block;
+  font-size: 13px;
+  padding: 0px 15px;
+  border-right: 1px solid #7b1c20;
+}
+
+.mainTabs li:hover,
+.mainTabs li.selected {
+  background: $header-tabs;
+}
+
+.mainTabs li.selected a {
+  font-weight: bold;
+}
+
+.nxHeader .userActions {
+  border-top: 3px solid transparent;
+  float: left;
+  padding: 0 .5em;
+  text-transform: none;
+}
+
+.nxHeader .userMenuActions {
+  border-top: 3px solid transparent;
+  float: right;
+  font-size: 1.1em;
+  margin-left: 1em;
+  padding: 0;
+}
+
+.nxHeader .userMenuActions a {
+  display: block;
+  font-size: 1.1em;
+}
+
+// Override default dropdown button styles
+.userMenuActions .actionList .dropdown,
+.userMenuActions .actionList .dropdown:hover {
+ 	background: #dedccd url(/bumblebee/icons/user_menu.png) no-repeat scroll 7px 6px / 16px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    display: inline-block;
+    height: 32px;
+    line-height: 23px;
+    padding: 0.2em 1em 0.43em 2.2em !important;
+    color: #024b82;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+}
+
+.userMenuActions .actionList .dropdown:hover {
+  background-color: $shade-light-0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .7);
+}
+
+.userMenuActions .button {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  color: $header-links;
+  line-height: 1.7em;
+  padding: .15em .5em .1em 1.7em !important;
+  text-transform: none;
+}
+
+.userMenuActions .dropDownMenu .widget {
+  font-weight: normal;
+}
+
+.nxHeader .actionList .actionSubList li a {
+  color: $shade-strong-100;
+}
+
+// =Studio header link
+.studioButton {
+  font-weight: normal;
+}
+
+// =Connect header links
+.updateNotificationArea {
+  float: right;
+  line-height: inherit;
+  padding: .3em .5em 0;
+  vertical-align: middle;
+}
+
+/* =Mobile Banner */
+#mobileBanner {
+  display: none;
+  text-align: right;
+  position: fixed;
+  z-index: 500;
+  bottom: 0;
+  left:0;
+  right: 0;
+  height: 7vh;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 1vh;
+}
+
+a.mobileAppLink,
+a.mobileAppLink:hover {
+  display: inline-block;
+  background-color: #00adff;
+  border-radius: 3em;
+  padding: .8em 1.5em;
+  color: #fff;
+  font-size: 2.5vh;
+  text-decoration: none;
+}
